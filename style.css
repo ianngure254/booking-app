@@ -1,0 +1,140 @@
+body{
+    background-color:#6f8ca3;
+}
+#booking-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-head {
+    color: #dea97e;
+    text-align: center;
+}
+
+.text-subtitle {
+    color: rgb(29, 235, 235);
+    text-align: center;
+}
+/* Enhanced Styles */
+.booking-container {
+    max-width: 500px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+    padding: 32px 24px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+fieldset {
+    border: 2px solid #dea97e;
+    border-radius: 8px;
+    padding: 20px;
+    background: #f7f7f7;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+legend {
+    color: #6f8ca3;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+#form-entites label {
+    display: block;
+    margin-bottom: 6px;
+    color: #333;
+    font-weight: 500;
+}
+
+#form-entites input[type="text"],
+#form-entites select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    box-sizing: border-box;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.appointment-content {
+    margin-top: 24px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 16px;
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+th, td {
+    padding: 10px 8px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+th {
+    background: #dea97e;
+    color: #fff;
+    font-weight: 600;
+}
+tr:last-child td {
+    border-bottom: none;
+}
+
+.text-confirm {
+    background: #dea97e;
+    color: #fff;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 6px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-top: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+.text-confirm:hover {
+    background: #c97e4e;
+}
+
+.text-logo {
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+
+@media (max-width: 600px) {
+    .booking-container {
+        padding: 12px 6px;
+        max-width: 98vw;
+    }
+    fieldset {
+        padding: 10px;
+    }
+    th, td {
+        padding: 6px 4px;
+        font-size: 0.95em;
+    }
+    .text-logo {
+        font-size: 1.5em;
+    }
+}
